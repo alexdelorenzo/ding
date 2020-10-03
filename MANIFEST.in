@@ -1,0 +1,4 @@
+include README.md
+include CREDIT.md
+include assets/song.mp3
+include assets/ding.ogg
