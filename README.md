@@ -71,7 +71,7 @@ sudo apt install python3-gi gstreamer1.0-python3-plugin-loader python3-gst-1.0
 
 ## PyPI
 ```bash
-$ python3 -m pip install ding
+$ python3 -m pip install onhold_ding
 ```
 
 ## GitHub
