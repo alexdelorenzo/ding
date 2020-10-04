@@ -18,6 +18,8 @@ $ export URL="https://releases.ubuntu.com/20.04.1/ubuntu-20.04.1-desktop-amd64.i
 $ http "$URL" | pv | ding > /dev/null
 ```
 
+This project uses [`play_sounds`](https://github.com/alexdelorenzo/play_sounds), a wrapper over [`playsound`](https://pypi.org/project/playsound/) and [`boombox`](https://pypi.org/project/boombox/).
+
 ## `ding`
 
 You can either set the `$DING` environment variable to the sound you'd like to play, or supply the sound with the `-s` flag.
