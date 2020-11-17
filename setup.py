@@ -23,18 +23,18 @@ ENTRY_POINTS = {
 }
 
 setup(
-      name=PKG_NAME,
-      version=VERSION,
-      description=DESC,
-      long_description=README,
-      long_description_content_type="text/markdown",
-      url="https://alexdelorenzo.dev",
-      author=__author__,
-      license=LICENSE,
-      packages=[NAME],
-      zip_safe=False,
-      install_requires=REQUIREMENTS,
-      entry_points=ENTRY_POINTS,
-      python_requires='>=3.6',
-      include_package_data=True
+  name=PKG_NAME,
+  version=VERSION,
+  description=DESC,
+  long_description=README,
+  long_description_content_type="text/markdown",
+  url="https://alexdelorenzo.dev",
+  author=__author__,
+  license=LICENSE,
+  packages=[NAME],
+  zip_safe=False,
+  install_requires=REQUIREMENTS,
+  entry_points=ENTRY_POINTS,
+  python_requires='>=3.6',
+  include_package_data=True
 )
