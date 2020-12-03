@@ -5,7 +5,7 @@ from pathlib import Path
 
 PKG_NAME = "onhold-ding"
 NAME = 'ding'
-VERSION = "0.0.3"
+VERSION = "0.1.0"
 LICENSE = "AGPL-3.0"
 
 DESC = "🔊 Play music after jobs complete"
