@@ -84,7 +84,8 @@ Usage: ding [OPTIONS]
 
 Options:
   -s, --sound_path PATH  Path to sound to play.
-  -i, --ignore           Suppress warnings.
+  -b, --bell             Ring the terminal bell, as well.  [default: False]
+  -w, --warn             Show warnings.
   --help                 Show this message and exit.
 ```
 
